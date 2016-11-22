@@ -1,0 +1,28 @@
+# Base
+!.gitkeep
+.DS_Store
+*.pyc
+*.db
+*.dump
+*.restore
+*.log
+*.disabled
+*.backup
+
+# Migration Files
+**/migrations/*
+!**/__init__.py
+
+# Folders
+disabled/*
+temp/*
+media/*
+static/*
+backup/*
+__pycache__/*
+
+# Settings files
+local_settings.py
+secrets.py
+secrets.json
+email_info.py
